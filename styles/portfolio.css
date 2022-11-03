@@ -109,6 +109,12 @@ line-height: 80px;
     padding: 12px 20px;
 }
 
+.btn-branding:hover {
+    background-color: var(--branding-color);
+    font-size: 22px;
+    transition: all 200ms ease-in-out;
+}
+
 .btn-branding-outline {
     color: var(--branding-color);
     border: 1px solid var(--branding-color);
@@ -223,7 +229,6 @@ p a.contact-email:hover {
 .introduction {
     font-size: 18px;
 }
-
 
 .pronouns {
   font-size: 13px;
