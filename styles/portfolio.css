@@ -47,6 +47,10 @@ p {
 
 }
 
+h1.contact-heading {
+    font-size: 40px;
+}
+
 
 .hero {
     background-color: var(--secondary-color);
@@ -89,7 +93,7 @@ line-height: 80px;
 }
 
 .content p {
-    font-size: 24px;
+    font-size: 20px;
 }
 
 .content {
@@ -194,6 +198,17 @@ footer .social-links a:hover {
   .tech-list li {
     list-style: none;
     font-size: 18px;
+  }
+
+  p a.design-link {
+    text-decoration: none;
+    color: black;
+  }
+  
+  p a.design-link:hover {
+    font-weight: bolder;
+    font-size: larger;
+    transition: all 200ms ease-in-out;
   }
 
 @media (max-width: 900px) {
