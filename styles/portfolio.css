@@ -220,6 +220,44 @@ p a.contact-email:hover {
     text-decoration: underline;
 }
 
+introduction,
+.pronouns {
+  font-size: 13px;
+}
+
+.name {
+  font-size: 38px;
+}
+
+.headline {
+  font-size: 18px;
+}
+
+.hero-section {
+  margin: auto;
+  width: 70%;
+  margin-top: 125px;
+  padding-right: 150px;
+}
+
+.hero-section p {
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.headshot-wrapper {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.headshot,
+.headshot-overlay {
+  width: 250px;
+  height: auto;
+  margin: auto;
+}
+
+
 @media (max-width: 900px) {
 h1 {
     font-size: 44px;
