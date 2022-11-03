@@ -220,12 +220,17 @@ p a.contact-email:hover {
     text-decoration: underline;
 }
 
-introduction,
+.introduction {
+    font-size: 18px;
+    text-align: center;
+}
+
+
 .pronouns {
   font-size: 13px;
 }
 
-.name {
+h1 .name {
   font-size: 38px;
 }
 
