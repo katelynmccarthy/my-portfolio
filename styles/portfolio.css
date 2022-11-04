@@ -8,6 +8,7 @@
 body {
     font-family: var(--default-font-family);
     background-color: #EFEDE7;
+    min-height: 100vh;
 }
 
 header {
@@ -172,13 +173,9 @@ nav li.active a {
   }
 
 footer {
-    margin: 0 auto;
+    margin-top: auto;
     background-color: white;
     padding: 10px 10px;
-    position: relative;
-    right: 0;
-    left: 0;
-    bottom: 0;
 }
 
 footer .social-links a {
