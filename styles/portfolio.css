@@ -107,7 +107,6 @@ line-height: 80px;
     font-size: 18px;
     line-height: 27px;
     padding: 12px 20px;
-    margin-left: 170px;
 }
 
 .btn-branding:hover {
@@ -124,7 +123,6 @@ line-height: 80px;
     line-height: 27px;
     padding: 12px 20px;
 }
-
 
 .project-description {
     padding: 120px 60px;
@@ -177,6 +175,10 @@ footer {
     margin: 0 auto;
     background-color: white;
     padding: 10px 10px;
+    position: relative;
+    right: 0;
+    left: 0;
+    bottom: 0;
 }
 
 footer .social-links a {
@@ -303,3 +305,125 @@ nav a {
     }
     
 }
+
+@media screen and (min-width: 1200px) and (max-width: 1399px) {
+
+    .headshot-wrapper {
+      padding-left: 50px;
+    }
+  
+    .contact-section {
+      padding-left: 400px;
+      padding-right: 350px;
+      }
+  }
+
+  @media screen and (min-width: 992px) and (max-width: 1199px) {
+
+    .name {
+      font-size: 60px;
+    }
+  
+    .headshot-wrapper {
+      padding-left: 50px;
+    }
+  
+    .about-section {
+      padding-left: 150px;
+      padding-right: 150px;
+      width: 100%;
+    }
+  
+    .contact-section {
+      width: 100%;
+      padding-left: 300px;
+      padding-right: 300px;
+    }
+  
+  }
+
+  @media screen and (min-width: 768px) and (max-width: 991px) {
+
+    .hero-section {
+      margin-left: 80px;
+    }
+  
+    .name {
+      font-size: 40px;
+    }
+  
+    .headline {
+      font-size: 22px;
+    }
+  
+    .headshot-wrapper {
+      padding-left: 50px;
+    }
+  
+    .about-section {
+      margin-left: 100px;
+      padding-right: 100px;
+      width: 100%;
+    }
+  
+    .contact-section {
+      padding-left: 200px;
+      padding-right: 180px;
+      width: 100%;
+    }
+  
+    .projects-section h1 {
+      font-size: 60px;
+      }
+  }
+  
+  @media screen and (max-width: 767px) {
+
+    body {
+      font-size: 18px;
+    }
+  
+    .hero-section,
+    .about-section,
+    .projects-section,
+    .contact-section {
+      margin-top: 75px;
+      padding-left: 10px;
+      padding-right: 10px;
+      width: 100%;
+    }
+  
+    .introduction,
+    .pronouns {
+      font-size: 13px;
+    }
+  
+    .name {
+      font-size: 38px;
+    }
+  
+    .headline {
+      font-size: 18px;
+    }
+  
+    .hero-section p {
+      margin-bottom: 50px;
+    }
+  
+    .headshot-wrapper {
+      padding-left: 0;
+      padding-right: 0;
+    }
+  
+    .headshot,
+    .headshot-overlay {
+      width: 250px;
+      height: auto;
+      margin: auto;
+    }
+  
+    .tech-grid {
+      grid-template-columns: repeat(2, 1fr);
+      grid-column-gap: 10px;
+    }
+  }
